@@ -6,6 +6,6 @@ var result = document.getElementById("answer")
 
 
 calcButton.onclick = function(){
-  answer = parseInt(numOne.value) + parseInt(numTwo.value);
+  answer = Number(numOne.value) + Number(numTwo.value);
   result.innerHTML = answer;
 };
